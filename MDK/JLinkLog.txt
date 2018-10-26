@@ -1,0 +1,26 @@
+
+T1E88 000:214 SEGGER J-Link V4.92 Log File (0004ms, 0028ms total)
+T1E88 000:214 DLL Compiled: Sep 30 2014 09:33:42 (0004ms, 0028ms total)
+T1E88 000:214 Logging started @ 2018-10-22 20:22 (0004ms, 0028ms total)
+T1E88 000:218 JLINK_SetWarnOutHandler(...) (0000ms, 0028ms total)
+T1E88 000:218 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N: 20090928
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDB  returns O.K. (0030ms, 0058ms total)
+T1E88 000:248 JLINK_SetErrorOutHandler(...) (0000ms, 0058ms total)
+T1E88 000:248 JLINK_ExecCommand("ProjectFile = "D:\RC\传感器整理\传感器整理\灯板\B车灯板(改进版)\MDK\JLinkSettings.ini"", ...)  returns 0x00 (0001ms, 0059ms total)
+T1E88 000:250 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0059ms total)
+T1E88 000:250 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0001ms, 0060ms total)
+T1E88 000:251 JLINK_SetSpeed(2000) (0001ms, 0061ms total)
+T1E88 000:252 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0061ms total)
+T1E88 000:252 JLINK_GetDLLVersion()  returns 49200 (0000ms, 0061ms total)
+T1E88 000:252 JLINK_GetFirmwareString(...) (0000ms, 0061ms total)
+T1E88 000:253 JLINK_GetDLLVersion()  returns 49200 (0000ms, 0061ms total)
+T1E88 000:253 JLINK_GetCompileDateTime() (0000ms, 0061ms total)
+T1E88 000:253 JLINK_GetFirmwareString(...) (0000ms, 0061ms total)
+T1E88 000:253 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0061ms total)
+T1E88 000:259 JLINK_Reset() >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0x30 JTAG>JLINK_GetIdData(...) >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0x30 JTAG> (0012ms, 0076ms total)
+T1E88 005:183 JLINK_Close() (0000ms, 0076ms total)
+T1E88 005:183  (0000ms, 0076ms total)
+T1E88 005:183 Closed (0000ms, 0076ms total)

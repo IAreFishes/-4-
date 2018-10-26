@@ -1,0 +1,193 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\灯板（4传感器黑线）\MDK\STM32_3.5MODE.uvproj
+Project File Date:  10/22/2018
+
+<h2>Output:</h2>
+Build target 'uCOS-DEMO'
+compiling main.c...
+compiling stm32f10x_it.c...
+..\USER\stm32f10x_it.c(188): warning:  #175-D: subscript out of range
+..\USER\stm32f10x_it.c:                 TCS230_Period[7][num[7]]=TIM2->CCR1;;
+..\USER\stm32f10x_it.c:                              ^
+..\USER\stm32f10x_it.c(200): warning:  #175-D: subscript out of range
+..\USER\stm32f10x_it.c:                 TCS230_Period[6][num[6]]=TIM2->CCR2;
+..\USER\stm32f10x_it.c:                              ^
+..\USER\stm32f10x_it.c(212): warning:  #175-D: subscript out of range
+..\USER\stm32f10x_it.c:                 TCS230_Period[5][num[5]]=TIM2->CCR3;
+..\USER\stm32f10x_it.c:                              ^
+..\USER\stm32f10x_it.c: ..\USER\stm32f10x_it.c: 3 warnings, 0 errors
+compiling BSP.c...
+compiling gpio.c...
+compiling NVIC.c...
+compiling rtc.c...
+compiling id_protect.c...
+compiling iwdg.c...
+compiling pwr.c...
+compiling rcc.c...
+compiling lcd12864.c...
+compiling flash.c...
+compiling DMA.c...
+compiling exti.c...
+compiling TIM.c...
+compiling usart.c...
+compiling adc.c...
+compiling can.c...
+compiling I2C.c...
+compiling TCS230.c...
+..\BSP\TCS230.c(10): error:  #147: declaration is incompatible with "uint16_t TCS230_Period[4][7]" (declared at line 31 of "..\BSP\TCS230.h")
+..\BSP\TCS230.c:   uint16_t TCS230_Period[8][VDATA_NUM+1]={0};  //存放RGB原始周期数据
+..\BSP\TCS230.c:            ^
+..\BSP\TCS230.c: ..\BSP\TCS230.c: 0 warnings, 1 error
+compiling app.c...
+..\APP\app.c(93): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(R_Val[4],0,4);  
+..\APP\app.c:                                   ^
+..\APP\app.c(94): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(G_Val[4],6,4);
+..\APP\app.c:                                   ^
+..\APP\app.c(95): warning:  #175-D: subscript out of range
+..\APP\app.c:           LCD_Display_int(B_Val[4],12,4);
+..\APP\app.c:                           ^
+..\APP\app.c(97): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(R_Val[5],0,5);  
+..\APP\app.c:                                        ^
+..\APP\app.c(98): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(G_Val[5],6,5);
+..\APP\app.c:                                        ^
+..\APP\app.c(99): warning:  #175-D: subscript out of range
+..\APP\app.c:           LCD_Display_int(B_Val[5],12,5);
+..\APP\app.c:                                ^
+..\APP\app.c(101): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(R_Val[6],0,6);  
+..\APP\app.c:                                        ^
+..\APP\app.c(102): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(G_Val[6],6,6);
+..\APP\app.c:                                        ^
+..\APP\app.c(103): warning:  #175-D: subscript out of range
+..\APP\app.c:           LCD_Display_int(B_Val[6],12,6);
+..\APP\app.c:                                ^
+..\APP\app.c(105): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(R_Val[7],0,7);  
+..\APP\app.c:                                        ^
+..\APP\app.c(106): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(G_Val[7],6,7);
+..\APP\app.c:                                        ^
+..\APP\app.c(107): warning:  #175-D: subscript out of range
+..\APP\app.c:                   t=(float)R_Val[7]/(float)B_Val[7];
+..\APP\app.c:                                 ^
+..\APP\app.c(107): warning:  #175-D: subscript out of range
+..\APP\app.c:                   t=(float)R_Val[7]/(float)B_Val[7];
+..\APP\app.c:                                                 ^
+..\APP\app.c: ..\APP\app.c: 13 warnings, 0 errors
+compiling Motor_Control.c...
+compiling four_wheel_chassis.c...
+Target not created
+Build target 'uCOS-DEMO'
+compiling main.c...
+compiling stm32f10x_it.c...
+..\USER\stm32f10x_it.c(188): warning:  #175-D: subscript out of range
+..\USER\stm32f10x_it.c:                 TCS230_Period[7][num[7]]=TIM2->CCR1;;
+..\USER\stm32f10x_it.c:                              ^
+..\USER\stm32f10x_it.c(200): warning:  #175-D: subscript out of range
+..\USER\stm32f10x_it.c:                 TCS230_Period[6][num[6]]=TIM2->CCR2;
+..\USER\stm32f10x_it.c:                              ^
+..\USER\stm32f10x_it.c(212): warning:  #175-D: subscript out of range
+..\USER\stm32f10x_it.c:                 TCS230_Period[5][num[5]]=TIM2->CCR3;
+..\USER\stm32f10x_it.c:                              ^
+..\USER\stm32f10x_it.c: ..\USER\stm32f10x_it.c: 3 warnings, 0 errors
+compiling BSP.c...
+compiling gpio.c...
+compiling NVIC.c...
+compiling rtc.c...
+compiling id_protect.c...
+compiling iwdg.c...
+compiling pwr.c...
+compiling rcc.c...
+compiling lcd12864.c...
+compiling flash.c...
+compiling DMA.c...
+compiling exti.c...
+compiling TIM.c...
+compiling usart.c...
+compiling adc.c...
+compiling can.c...
+compiling I2C.c...
+compiling TCS230.c...
+..\BSP\TCS230.c(10): error:  #147: declaration is incompatible with "uint16_t TCS230_Period[4][7]" (declared at line 31 of "..\BSP\TCS230.h")
+..\BSP\TCS230.c:   uint16_t TCS230_Period[8][VDATA_NUM+1]={0};  //存放RGB原始周期数据
+..\BSP\TCS230.c:            ^
+..\BSP\TCS230.c: ..\BSP\TCS230.c: 0 warnings, 1 error
+compiling app.c...
+..\APP\app.c(93): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(R_Val[4],0,4);  
+..\APP\app.c:                                   ^
+..\APP\app.c(94): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(G_Val[4],6,4);
+..\APP\app.c:                                   ^
+..\APP\app.c(95): warning:  #175-D: subscript out of range
+..\APP\app.c:           LCD_Display_int(B_Val[4],12,4);
+..\APP\app.c:                           ^
+..\APP\app.c(97): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(R_Val[5],0,5);  
+..\APP\app.c:                                        ^
+..\APP\app.c(98): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(G_Val[5],6,5);
+..\APP\app.c:                                        ^
+..\APP\app.c(99): warning:  #175-D: subscript out of range
+..\APP\app.c:           LCD_Display_int(B_Val[5],12,5);
+..\APP\app.c:                                ^
+..\APP\app.c(101): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(R_Val[6],0,6);  
+..\APP\app.c:                                        ^
+..\APP\app.c(102): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(G_Val[6],6,6);
+..\APP\app.c:                                        ^
+..\APP\app.c(103): warning:  #175-D: subscript out of range
+..\APP\app.c:           LCD_Display_int(B_Val[6],12,6);
+..\APP\app.c:                                ^
+..\APP\app.c(105): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(R_Val[7],0,7);  
+..\APP\app.c:                                        ^
+..\APP\app.c(106): warning:  #175-D: subscript out of range
+..\APP\app.c:                   LCD_Display_int(G_Val[7],6,7);
+..\APP\app.c:                                        ^
+..\APP\app.c(107): warning:  #175-D: subscript out of range
+..\APP\app.c:                   t=(float)R_Val[7]/(float)B_Val[7];
+..\APP\app.c:                                 ^
+..\APP\app.c(107): warning:  #175-D: subscript out of range
+..\APP\app.c:                   t=(float)R_Val[7]/(float)B_Val[7];
+..\APP\app.c:                                                 ^
+..\APP\app.c: ..\APP\app.c: 13 warnings, 0 errors
+compiling Motor_Control.c...
+compiling four_wheel_chassis.c...
+Target not created
+Build target 'uCOS-DEMO'
+compiling TCS230.c...
+linking...
+Program Size: Code=23632 RO-data=1120 RW-data=172 ZI-data=14932  
+FromELF: creating hex file...
+"..\Output\hc.axf" - 0 Error(s), 0 Warning(s).
+Build target 'uCOS-DEMO'
+compiling stm32f10x_it.c...
+..\USER\stm32f10x_it.c(190): warning:  #175-D: subscript out of range
+..\USER\stm32f10x_it.c:                 TCS230_Period[7][num[7]]=TIM2->CCR1;;
+..\USER\stm32f10x_it.c:                              ^
+..\USER\stm32f10x_it.c(203): warning:  #175-D: subscript out of range
+..\USER\stm32f10x_it.c:                 TCS230_Period[5][num[5]]=TIM2->CCR3;
+..\USER\stm32f10x_it.c:                              ^
+..\USER\stm32f10x_it.c: ..\USER\stm32f10x_it.c: 2 warnings, 0 errors
+compiling TIM.c...
+compiling TCS230.c...
+linking...
+Program Size: Code=22596 RO-data=1120 RW-data=172 ZI-data=14932  
+FromELF: creating hex file...
+"..\Output\hc.axf" - 0 Error(s), 2 Warning(s).
+Build target 'uCOS-DEMO'
+linking...
+Program Size: Code=22596 RO-data=1120 RW-data=172 ZI-data=14932  
+FromELF: creating hex file...
+"..\Output\hc.axf" - 0 Error(s), 0 Warning(s).
